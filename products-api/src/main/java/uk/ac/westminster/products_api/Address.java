@@ -15,6 +15,12 @@ public class Address {
         this.postcode =postcode;
     }
 
+    public String[] tags;
+
+    public String [] getTags(){
+        return tags;
+    }
+
     public String getStreet(){
         return street;
     }
